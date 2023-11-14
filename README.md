@@ -128,8 +128,10 @@ Nesse link você encontra um [Exemplo](https://help.ubidots.com/en/articles/1077
 
 Novos prazos: como a entrega da ponderada da semana 04 passou para essa semana 05, vocês podem começar a usar essa aula de instrução para elaborar essa entrega.
 
-Prazo máximo: 22 de novembro.
+Prazo máximo: 22 de novembro 23h59.
 
-Podem usar o mesmo circuito e manter a dupla.
+Podem usar o mesmo circuito e manter a mesma dupla ou mudar de dupla.
+
+Gravar o vídeo e postar o código-fonte que o barema está pedindo.
 
 
