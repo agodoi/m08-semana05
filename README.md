@@ -122,25 +122,14 @@ Seguem 3 características de cada tipo de comunicação: Serial, Wireless e Rede
      - Utiliza conectores padrão de cinco pinos.
      - Transmissão de eventos musicais em tempo real.
 
-# Comunicação Serial
-## pontos positivos
+# Dicas da ponderada dessa semana
 
-## pontos negativos
+Nesse link você encontra um [Exemplo](https://help.ubidots.com/en/articles/1077054-diy-raspberry-pi-temperature-system-with-ubidots).
 
-# Comunicação I2C
+Novos prazos: como a entrega da ponderada da semana 04 passou para essa semana 05, vocês podem começar a usar essa aula de instrução para elaborar essa entrega.
 
-## pontos positivos
+Prazo máximo: 22 de novembro.
 
-## pontos negativos
+Podem usar o mesmo circuito e manter a dupla.
 
-# Comunicação SPI
 
-## Pontos positivos
-
-## Pontos negativos
-
-# Comunicação UART
-
-## Pontos positivos
-
-## Pontos negativos
