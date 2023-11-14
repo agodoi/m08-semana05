@@ -121,10 +121,60 @@ Seguem 3 características de cada tipo de comunicação: Serial, Wireless e Rede
      - Originalmente desenvolvido para comunicação entre instrumentos musicais eletrônicos.
      - Utiliza conectores padrão de cinco pinos.
      - Transmissão de eventos musicais em tempo real.
+    
+# Tapetes
+
+Os tapetes estão em manutenção, pois no processo de costura, alguns fios de cobre se romperam.
+
+Contudo, um tapete de modelo já está disponível para testes. Procure o laboratorista do Inteli para usar e testá-lo.
+
+O tapete sensorial + Greg Maker será apresentado para cada grupo agora.
 
 # Dicas da ponderada dessa semana
 
 Nesse link você encontra um [Exemplo](https://help.ubidots.com/en/articles/1077054-diy-raspberry-pi-temperature-system-with-ubidots).
+
+Esse código não está totalmente pronto. Precisa de ajustes.
+
+```
+import os
+import time
+import requests
+
+os.system('modprobe w1-gpio')
+os.system('modprobe w1-therm')
+
+temp_sensor = '/sys/bus/w1/devices/28-00000830fa90/w1_slave'
+
+def temp_raw():
+    f = open(temp_sensor, 'r')
+    lines = f.readlines()
+    f.close()
+    return lines
+
+def read_temp():
+    lines = temp_raw()
+    while lines[0].strip()[-3:] != 'YES':
+        time.sleep(0.2)
+        lines = temp_raw()
+    temp_output = lines[1].find('t=')
+    if temp_output != -1:
+        temp_string = lines[1].strip()[temp_output+2:]
+        temp_c = float(temp_string) / 1000.0
+        temp_f = temp_c * 9.0 / 5.0 + 32.0
+        payload = {'temp_celsius': temp_c, 'temp_fahrenheit': temp_f}
+        return payload
+
+while True:
+        try:
+            r = requests.post('http://industrial.api.ubidots.com/api/v1.6/devices/raspberry/?token={Assign_your_Ubidots_Token}', data=read_temp())
+            print('Posting temperatures in Ubidots')
+            print(read_temp())
+        except:
+            pass          
+        time.sleep(10)
+```
+
 
 Novos prazos: como a entrega da ponderada da semana 04 passou para essa semana 05, vocês podem começar a usar essa aula de instrução para elaborar essa entrega.
 
