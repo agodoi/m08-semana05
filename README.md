@@ -40,7 +40,7 @@ Em resumo, a comunicação entre dispositivos embarcados transcende a mera trans
 Existem diversos tipos de comunicação entre dispositivos embarcados, cada um adaptado para necessidades específicas. Abaixo, estão alguns dos tipos mais comuns:
 
 1. **Comunicação Serial:**
-   - **UART (Universal Asynchronous Receiver/Transmitter):** Permite a transmissão serial assíncrona de dados entre dispositivos. No autoestudo, tem-se a documentação do [pySerial](https://pyserial.readthedocs.io/en/latest/pyserial.html)
+   - **UART (Universal Asynchronous Receiver/Transmitter):** Permite a transmissão serial assíncrona de dados entre dispositivos. No autoestudo, tem-se a documentação do [pySerial](https://pyserial.readthedocs.io/en/latest/pyserial.html). Aqui tem um [exemplo](https://blog.eletrogate.com/como-conectar-o-arduino-com-o-python/) de aplicação do pySerial.
    - **SPI (Serial Peripheral Interface):** Usado para comunicação síncrona entre um mestre e vários dispositivos periféricos.
    - **I2C (Inter-Integrated Circuit):** Facilita a comunicação entre componentes em uma placa de circuito, utilizando apenas dois fios.
 
