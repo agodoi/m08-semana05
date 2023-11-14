@@ -134,7 +134,8 @@ O tapete sensorial + Greg Maker será apresentado para cada grupo agora.
 
 Nesse link você encontra um [Exemplo](https://help.ubidots.com/en/articles/1077054-diy-raspberry-pi-temperature-system-with-ubidots).
 
-Esse código não está totalmente pronto. Precisa de ajustes.
+Esse código não está totalmente pronto. Precisa de ajustes, em especial na linha ```temp_sensor = '/sys/bus/w1/devices/28-00000830fa90/w1_slave``` e na linha ```r = requests.post('http://industrial.api.ubidots.com/api/v1.6/devices/raspberry/?token={Assign_your_Ubidots_Token}', data=read_temp())```
+
 
 ```
 import os
