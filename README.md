@@ -40,9 +40,9 @@ Em resumo, a comunicação entre dispositivos embarcados transcende a mera trans
 Existem diversos tipos de comunicação entre dispositivos embarcados, cada um adaptado para necessidades específicas. Abaixo, estão alguns dos tipos mais comuns:
 
 1. **Comunicação Serial:**
-   - **UART (Universal Asynchronous Receiver/Transmitter):** Permite a transmissão serial assíncrona de dados entre dispositivos. No autoestudo, tem-se a documentação do [pySerial](https://pyserial.readthedocs.io/en/latest/pyserial.html). Aqui tem um [exemplo](https://blog.eletrogate.com/como-conectar-o-arduino-com-o-python/) de aplicação do pySerial.
+   - **UART (Universal Asynchronous Receiver/Transmitter):** Permite a transmissão serial assíncrona de dados entre dispositivos. No autoestudo, tem-se a documentação do [pySerial](https://pyserial.readthedocs.io/en/latest/pyserial.html). Aqui tem um [primeiro exemplo](https://blog.eletrogate.com/como-conectar-o-arduino-com-o-python/) de aplicação do pySerial, onde você pode usar comandos do seu computador para controlar um Arduino. E um [segundo exemplo](https://help.ubidots.com/en/articles/5097358-connect-a-raspberry-pi-pico-with-ubidots-using-an-esp8266) que pode lhes ajudar na ponderada dessa semana.
    - **SPI (Serial Peripheral Interface):** Usado para comunicação síncrona entre um mestre e vários dispositivos periféricos.
-   - **I2C (Inter-Integrated Circuit):** Facilita a comunicação entre componentes em uma placa de circuito, utilizando apenas dois fios.
+   - **I2C (Inter-Integrated Circuit):** Facilita a comunicação entre componentes em uma placa de circuito, utilizando apenas dois fios. Um [exemplo](https://capsistema.com.br/index.php/2021/07/12/como-usar-os-pinos-i2c-no-raspberry-pi-pico-codigo-i2c-scanner/) está aqui.
 
 2. **Comunicação Paralela:**
    - **Paralela de Dados:** Transmissão simultânea de vários bits de dados, comumente usada para transferência rápida de dados em curtas distâncias.
@@ -53,7 +53,7 @@ Existem diversos tipos de comunicação entre dispositivos embarcados, cada um a
    - **RFID (Radio-Frequency Identification):** Usa ondas de rádio para identificar e rastrear objetos, com aplicações em controle de estoque e segurança.
 
 4. **Comunicação de Rede:**
-   - **Ethernet:** Utilizada para comunicação em redes locais (LAN), permitindo a conexão de dispositivos embarcados a sistemas mais amplos.
+   - **Ethernet:** Utilizada para comunicação em redes locais (LAN), permitindo a conexão de dispositivos embarcados a sistemas mais amplos. A própria Ethernet possibilita uma vasta comunicação entre o embarcado e o mundo inteiro. Um [exemplo](https://openest.io/en/non-classe-en/mqtt-communication-protocol-for-connected-embedded-systems/) é o protocolo MQTT.
    - **CAN (Controller Area Network):** Projetada para comunicação em tempo real em sistemas embarcados, frequentemente utilizada em veículos para troca de dados entre unidades de controle.
 
 5. **Comunicação Analógica:**
