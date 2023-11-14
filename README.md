@@ -72,6 +72,56 @@ Existem diversos tipos de comunicação entre dispositivos embarcados, cada um a
 
 # Definições rápidas
 
+Seguem 3 características de cada tipo de comunicação: Serial, Wireless e Rede:
+
+**1. Comunicação Serial:**
+   - **UART (Universal Asynchronous Receiver/Transmitter):**
+     - Taxa de Transmissão Ajustável (Baud Rate).
+     - Utiliza apenas dois fios para transmissão (TX - Transmit e RX - Receive) + fio referência, GND (Ground).
+     - Ideal para comunicação ponto a ponto.
+
+   - **SPI (Serial Peripheral Interface):**
+     - Comunicação Síncrona.
+     - Possui linhas dedicadas para mestre e escravos (MISO, MOSI, SCLK).
+     - Suporta velocidades de transferência de dados mais elevadas em comparação com UART.
+
+   - **I2C (Inter-Integrated Circuit):**
+     - Dois fios para comunicação (SDA - Serial Data e SCL - Serial Clock) + fio referência, GND.
+     - Permite múltiplos dispositivos em um barramento. Até 128 dispositivos diferentes nos mesmos fios SDA e SCL.
+     - Suporta transferência de dados em alta velocidade.
+
+**2. Comunicação Wireless:**
+   - **Bluetooth:**
+     - Variedade de perfis para diferentes aplicações (por exemplo, A2DP - Advanced Audio Distribution Profile, para áudio).
+     - Consumo de energia otimizado em modos de baixa potência.
+     - Suporte a emparelhamento seguro.
+
+   - **Wi-Fi:**
+     - Suporte a redes locais (LAN).
+     - Alta taxa de transferência de dados.
+     - Criptografia integrada para segurança de dados.
+
+   - **RFID (Radio-Frequency Identification):**
+     - Leitura sem contato.
+     - Utiliza frequências de rádio para comunicação gratuitas.
+     - Ampla aplicação em logística, controle de acesso e rastreamento.
+
+**3. Comunicação de Rede:**
+   - **Ethernet:**
+     - Padrão para redes locais (LAN).
+     - Taxas de transferência de dados de 10/100/1000 Mbps.
+     - Utiliza protocolos como TCP/IP para comunicação.
+
+   - **CAN (Controller Area Network):**
+     - Projetado para comunicação robusta em ambientes automotivos e industriais.
+     - Topologia de barramento.
+     - Suporta comunicação de alta velocidade e baixa latência.
+
+   - **MIDI (Musical Instrument Digital Interface):**
+     - Originalmente desenvolvido para comunicação entre instrumentos musicais eletrônicos.
+     - Utiliza conectores padrão de cinco pinos.
+     - Transmissão de eventos musicais em tempo real.
+
 # Comunicação Serial
 ## pontos positivos
 
