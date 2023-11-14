@@ -132,6 +132,16 @@ O tapete sensorial + Greg Maker será apresentado para cada grupo agora.
 
 # Dicas da ponderada dessa semana
 
+Use o ambiente Thonny para programar o Raspberry Pi Pico W.
+
+Novos prazos: como a entrega da ponderada da semana 04 passou para essa semana 05, vocês podem começar a usar essa aula de instrução para elaborar essa entrega.
+
+Prazo máximo: 22 de novembro 23h59.
+
+Podem usar o mesmo circuito e manter a mesma dupla ou mudar de dupla.
+
+Gravar o vídeo e postar o código-fonte que o barema está pedindo.
+
 Nesse link você encontra um [Exemplo](https://help.ubidots.com/en/articles/1077054-diy-raspberry-pi-temperature-system-with-ubidots).
 
 Esse código não está totalmente pronto. Precisa de ajustes, em especial na linha ```temp_sensor = '/sys/bus/w1/devices/28-00000830fa90/w1_slave``` e na linha ```r = requests.post('http://industrial.api.ubidots.com/api/v1.6/devices/raspberry/?token={Assign_your_Ubidots_Token}', data=read_temp())```
@@ -175,14 +185,4 @@ while True:
             pass          
         time.sleep(10)
 ```
-
-
-Novos prazos: como a entrega da ponderada da semana 04 passou para essa semana 05, vocês podem começar a usar essa aula de instrução para elaborar essa entrega.
-
-Prazo máximo: 22 de novembro 23h59.
-
-Podem usar o mesmo circuito e manter a mesma dupla ou mudar de dupla.
-
-Gravar o vídeo e postar o código-fonte que o barema está pedindo.
-
 
