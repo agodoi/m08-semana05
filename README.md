@@ -15,7 +15,7 @@ Assuntos relacionados
 
 # Por que ter uma comunicação entre dispositivos embarcados?
 
-# Quais os tispo de comunicação
+# Quais os tipos de comunicação
 
 # Definições rápidas
 
