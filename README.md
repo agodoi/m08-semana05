@@ -128,7 +128,7 @@ Os tapetes estão em manutenção, pois no processo de costura, alguns fios de c
 
 Contudo, um tapete de modelo já está disponível para testes. Procure o laboratorista do Inteli para usar e testá-lo.
 
-O tapete sensorial + Greg Maker estará na sala e caso vocÊ tenha dúvidas, procure pelo professor na DEV.
+O tapete sensorial + Greg Maker estará na sala e caso você tenha dúvidas, procure pelo professor na DEV.
 
 # Dicas da ponderada dessa semana
 
