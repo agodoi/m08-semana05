@@ -142,11 +142,11 @@ Podem usar o mesmo circuito e manter a mesma dupla ou mudar de dupla.
 
 Gravar o vídeo e postar o código-fonte que o barema está pedindo.
 
-Nesse link você encontra um [Exemplo](https://help.ubidots.com/en/articles/1077054-diy-raspberry-pi-temperature-system-with-ubidots).
+Nesse link você encontra um [Exemplo teste que usa HTTP](https://help.ubidots.com/en/articles/1077054-diy-raspberry-pi-temperature-system-with-ubidots).
 
-Esse código não está totalmente pronto. Precisa de ajustes, em especial na linha ```temp_sensor = '/sys/bus/w1/devices/28-00000830fa90/w1_slave``` e na linha ```r = requests.post('http://industrial.api.ubidots.com/api/v1.6/devices/raspberry/?token={Assign_your_Ubidots_Token}', data=read_temp())```
+Esse código não usa o protocolo correto para a ponderada. Ele é um exemplo de "entrada" e precisa de ajustes, em especial na linha ```temp_sensor = '/sys/bus/w1/devices/28-00000830fa90/w1_slave``` e na linha ```r = requests.post('http://industrial.api.ubidots.com/api/v1.6/devices/raspberry/?token={Assign_your_Ubidots_Token}', data=read_temp())```
 
-https://www.emqx.com/en/blog/use-mqtt-with-raspberry-pi
+Nesse [link](https://www.emqx.com/en/blog/use-mqtt-with-raspberry-pi)
 
 ```
 import os
