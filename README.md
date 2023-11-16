@@ -146,7 +146,7 @@ Nesse link você encontra um [Exemplo teste que usa HTTP](https://help.ubidots.c
 
 Esse código não usa o protocolo correto para a ponderada. Ele é um exemplo de "entrada" e precisa de ajustes, em especial na linha ```temp_sensor = '/sys/bus/w1/devices/28-00000830fa90/w1_slave``` e na linha ```r = requests.post('http://industrial.api.ubidots.com/api/v1.6/devices/raspberry/?token={Assign_your_Ubidots_Token}', data=read_temp())```
 
-Nesse [link](https://www.emqx.com/en/blog/use-mqtt-with-raspberry-pi)
+Nesse [link](https://www.emqx.com/en/blog/use-mqtt-with-raspberry-pi) tem um exemplo que usa MQTT + Ubidots.
 
 ```
 import os
