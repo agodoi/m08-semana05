@@ -146,6 +146,7 @@ Nesse link você encontra um [Exemplo](https://help.ubidots.com/en/articles/1077
 
 Esse código não está totalmente pronto. Precisa de ajustes, em especial na linha ```temp_sensor = '/sys/bus/w1/devices/28-00000830fa90/w1_slave``` e na linha ```r = requests.post('http://industrial.api.ubidots.com/api/v1.6/devices/raspberry/?token={Assign_your_Ubidots_Token}', data=read_temp())```
 
+https://www.emqx.com/en/blog/use-mqtt-with-raspberry-pi
 
 ```
 import os
